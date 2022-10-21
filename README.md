@@ -63,4 +63,16 @@ Uma análise descritiva bivariada foi feita de forma a observar se caracteristic
   <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/hist_f_m_genero.png" width="600" />
 </p>
 
+A análise também permitiu observar que não há nenhuma correlação forte entre as features, de forma que numa modelagem para realizar previsões essas features poderiam ser utilizadas.
 
+<br>
+<p align="center">
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao.png" width="600" />
+</p>
+
+Também foi possível observar, utilizando o paiplot, se há alguma relação entre as variáveis, isto é, se de alguma forma teria alguma tendencia entre os comportamentos das features do problema. O que se conclui é há apenas comportamentos aleatórios, não há a presença de nenhum padrão significativo. 
+
+<br>
+<p align="center">
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao_graficos.png" width="600" />
+</p>
