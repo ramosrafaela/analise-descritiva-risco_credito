@@ -4,6 +4,7 @@ Projeto de análise descritiva de risco de crédito. Este projeto faz parte da l
 
 
 ![Badge ongoing](http://img.shields.io/static/v1?label=STATUS&message=ONGOING&color=RED&style=for-the-badge)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## O problema proposto é dado por:
 
@@ -87,3 +88,13 @@ Também foi possível observar, utilizando o paiplot, se há alguma relação en
 </p>
 
 
+## ✔️ Ferramentas e Tecnologias usadas
+
+- ``Python``
+- ``Jupyter Notebook``
+- ``missingno``
+- ``pandas``
+- ``numpy``
+- ``seaborn``
+- ``statistics``
+- ``matplotlib``
