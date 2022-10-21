@@ -3,7 +3,7 @@
 Projeto de análise descritiva de risco de crédito. Este projeto faz parte da lista de exercícios da trilha de Big Data Science oferecido pela SEMANTIX.
 
 
-![Badge ongoing](http://img.shields.io/static/v1?label=STATUS&message=ONGOING&color=YELLOW&style=for-the-badge)
+![Badge ongoing](http://img.shields.io/static/v1?label=STATUS&message=ONGOING&color=RED&style=for-the-badge)
 
 ## O problema proposto é dado por:
 
