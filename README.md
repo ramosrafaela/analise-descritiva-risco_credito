@@ -76,14 +76,14 @@ A análise também permitiu observar que não há nenhuma correlação forte ent
 
 <br>
 <p align="center">
-  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao.png" width="600" />
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao.png" width="800" />
 </p>
 
 Também foi possível observar, utilizando o paiplot, se há alguma relação entre as variáveis, isto é, se de alguma forma teria alguma tendencia entre os comportamentos das features do problema. O que se conclui é há apenas comportamentos aleatórios, não há a presença de nenhum padrão significativo. 
 
 <br>
 <p align="center">
-  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao_graficos.png" width="700" />
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao_graficos.png" width="1000" />
 </p>
 
 
