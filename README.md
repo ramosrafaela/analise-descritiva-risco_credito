@@ -52,18 +52,27 @@ Essa contagem pode ser melhor observada no gráfico de barras abaixo:
   <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/contagem.png" width="600" />
 </p>
 
+Informações relevantes que puderam ser extraídas a partir da análise:
 
-A análise consistiu em calcular os valores estatísticos relacionados a cada feature e preeencher os dados nulos pela média ou mediana. Para features que possuiam maior dispersão foi escolhido usar a mediana. Para features categóricas foi utilizado a moda. 
+- 67,57% dos clientes são homens
+- 32,43% dos clientes são mulheres
+
+- prazo para pagar os emprestimos é binário com  80,5% dos clientes tendo 36 meses e 19,5% tendo 60 meses
+- O maior valor de emprestimo é de 35059,60 e o menor é de 527,07
+- A maior renda entre os clientes é de 5000027.83 e a menor de 4821.18	
+- A taxa de risco tem um pico em torno de 0,3
+
+
+A análise também consistiu em calcular os valores estatísticos relacionados a cada feature e preeencher os dados nulos pela média ou mediana. Para features que possuiam maior dispersão foi escolhido usar a mediana. Para features categóricas foi utilizado a moda. 
 
 Uma análise descritiva bivariada foi feita de forma a observar se caracteristicas como genero e perfil no facebook influênciavam no risco de crédito. Os gráficos abaixo demonstram que esses dois fatores não influenciam se o cliente irá ou não pagar o emprestimo.
-
 
 <br>
 <p align="center">
   <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/hist_f_m_genero.png" width="600" />
 </p>
 
-A análise também permitiu observar que não há nenhuma correlação forte entre as features, de forma que numa modelagem para realizar previsões essas features poderiam ser utilizadas.
+A análise também permitiu observar que não há nenhuma correlação forte entre as features, de forma que numa modelagem para realizar previsões com essas features poderiam ser realizadas.
 
 <br>
 <p align="center">
@@ -74,5 +83,7 @@ Também foi possível observar, utilizando o paiplot, se há alguma relação en
 
 <br>
 <p align="center">
-  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao_graficos.png" width="600" />
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/correlacao_graficos.png" width="700" />
 </p>
+
+
