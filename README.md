@@ -2,6 +2,9 @@
 
 Projeto de análise descritiva de risco de crédito. Este projeto faz parte da lista de exercícios da trilha de Big Data Science oferecido pela SEMANTIX.
 
+
+![Badge ongoing](http://img.shields.io/static/v1?label=STATUS&message=ONGOING&color=YELLOW&style=for-the-badge)
+
 ## O problema proposto é dado por:
 
 ``Um grande banco tem o objetivo de desenvolver um modelo para identificar maior probabilidade de default. Sua tarefa será realizar uma análise descritiva e tratamento dos dados para entender o perfil dos clientes e quais fatores podem influenciar no risco de crédito.``
@@ -41,5 +44,23 @@ A base de dados consta com 64592 linhas e com 10 colunas, deletando a coluna ``s
 - genero:                         7186
 - perfil_facebook:                6407
 - n_emprestimos_inadiplentes:      803
+
+Essa contagem pode ser melhor observada no gráfico de barras abaixo:
+
+<br>
+<p align="center">
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/contagem.png" width="600" />
+</p>
+
+
+A análise consistiu em calcular os valores estatísticos relacionados a cada feature e preeencher os dados nulos pela média ou mediana. Para features que possuiam maior dispersão foi escolhido usar a mediana. Para features categóricas foi utilizado a moda. 
+
+Uma análise descritiva bivariada foi feita de forma a observar se caracteristicas como genero e perfil no facebook influênciavam no risco de crédito. Os gráficos abaixo demonstram que esses dois fatores não influenciam se o cliente irá ou não pagar o emprestimo.
+
+
+<br>
+<p align="center">
+  <img src="https://github.com/ramosrafaela/analise-descritiva-risco_credito/blob/main/figures/hist_f_m_genero.png" width="600" />
+</p>
 
 
